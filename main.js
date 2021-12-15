@@ -22,7 +22,9 @@ client.on('message', msg => {
       "ゆゆっちくんだお！ゆゆっちくんだお！ゆゆっちくんだお！ゆゆっちくんだお！"
     )
     }
-  }
+   if(msg.content.startsWith("ゆゆっちくんもだお！")){
+       message.channel.send("https://media.discordapp.net/attachments/878088284348252232/920675697356316672/1591BA58-E82A-4674-8033-4C9CF16EFA58.jpg");
+   }
 });  
 
 if (config.token == undefined) {
