@@ -1,0 +1,27 @@
+{
+  "name": "yuyuttibot",
+  "version": "1.0.0",
+  "description": "ゆゆっちくんBOT",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuyuttigroup/yuyutti-bot.git/"
+  },
+  "author": "fireflower92",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
+    "ffmpeg-static": "^4.2.7",
+    "fs": "0.0.1-security",
+    "keyv": "^4.0.3",
+    "node-fetch": "^2.6.1",
+    "util": "^0.12.3"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
