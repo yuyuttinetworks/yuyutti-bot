@@ -27,7 +27,7 @@ client.on('message', msg => {
    }
 });  
 
-if (config.token == undefined) {
+if (config.token == DISCORD-BOT-TOKEN) {
     console.log("please set config:token");
     process.exit(0);
   }
