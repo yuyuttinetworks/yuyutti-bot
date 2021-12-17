@@ -25,6 +25,14 @@ client.on('message', msg => {
    if(msg.content.startsWith("ゆゆっちくんもだお！")){
        msg.channel.send("https://media.discordapp.net/attachments/878088284348252232/920675697356316672/1591BA58-E82A-4674-8033-4C9CF16EFA58.jpg");
    }
+   if(msg.content.match(/かつ/)){
+       msg.channel.send("<@648430459079884802>");
+   }
+   if(msg.content.match(/katsumingo/)){
+       for(i=1;i<=5;i++){
+         msg.channel.send("<@648430459079884802>");
+       }
+   }
 });  
 
 if (config.token == DISCORD-BOT-TOKEN) {
